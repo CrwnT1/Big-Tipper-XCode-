@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFB989772B58E63300D0A26F /* Big_TipperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB989762B58E63300D0A26F /* Big_TipperApp.swift */; };
+		CFB989792B58E63300D0A26F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB989782B58E63300D0A26F /* ContentView.swift */; };
+		CFB9897B2B58E63800D0A26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB9897A2B58E63800D0A26F /* Assets.xcassets */; };
+		CFB9897E2B58E63800D0A26F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB9897D2B58E63800D0A26F /* Preview Assets.xcassets */; };
+		CFB989882B58E63800D0A26F /* Big_TipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB989872B58E63800D0A26F /* Big_TipperTests.swift */; };
+		CFB989922B58E63800D0A26F /* Big_TipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB989912B58E63800D0A26F /* Big_TipperUITests.swift */; };
+		CFB989942B58E63800D0A26F /* Big_TipperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB989932B58E63800D0A26F /* Big_TipperUITestsLaunchTests.swift */; };
+		CFB989A12B58E83F00D0A26F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB989A02B58E83F00D0A26F /* Launch Screen.storyboard */; };
+		CFB989A32B58EF1200D0A26F /* PriceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB989A22B58EF1200D0A26F /* PriceCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFB989842B58E63800D0A26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB9896B2B58E63300D0A26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB989722B58E63300D0A26F;
+			remoteInfo = "Big Tipper";
+		};
+		CFB9898E2B58E63800D0A26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB9896B2B58E63300D0A26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB989722B58E63300D0A26F;
+			remoteInfo = "Big Tipper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFB989732B58E63300D0A26F /* Big Tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Tipper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB989762B58E63300D0A26F /* Big_TipperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_TipperApp.swift; sourceTree = "<group>"; };
+		CFB989782B58E63300D0A26F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFB9897A2B58E63800D0A26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB9897D2B58E63800D0A26F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFB989832B58E63800D0A26F /* Big TipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big TipperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB989872B58E63800D0A26F /* Big_TipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_TipperTests.swift; sourceTree = "<group>"; };
+		CFB9898D2B58E63800D0A26F /* Big TipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big TipperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB989912B58E63800D0A26F /* Big_TipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_TipperUITests.swift; sourceTree = "<group>"; };
+		CFB989932B58E63800D0A26F /* Big_TipperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_TipperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFB989A02B58E83F00D0A26F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CFB989A22B58EF1200D0A26F /* PriceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB989702B58E63300D0A26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB989802B58E63800D0A26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB9898A2B58E63800D0A26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB9896A2B58E63300D0A26F = {
+			isa = PBXGroup;
+			children = (
+				CFB989A02B58E83F00D0A26F /* Launch Screen.storyboard */,
+				CFB989752B58E63300D0A26F /* Big Tipper */,
+				CFB989862B58E63800D0A26F /* Big TipperTests */,
+				CFB989902B58E63800D0A26F /* Big TipperUITests */,
+				CFB989742B58E63300D0A26F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB989742B58E63300D0A26F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB989732B58E63300D0A26F /* Big Tipper.app */,
+				CFB989832B58E63800D0A26F /* Big TipperTests.xctest */,
+				CFB9898D2B58E63800D0A26F /* Big TipperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB989752B58E63300D0A26F /* Big Tipper */ = {
+			isa = PBXGroup;
+			children = (
+				CFB989762B58E63300D0A26F /* Big_TipperApp.swift */,
+				CFB989782B58E63300D0A26F /* ContentView.swift */,
+				CFB9897A2B58E63800D0A26F /* Assets.xcassets */,
+				CFB9897C2B58E63800D0A26F /* Preview Content */,
+				CFB989A22B58EF1200D0A26F /* PriceCardView.swift */,
+			);
+			path = "Big Tipper";
+			sourceTree = "<group>";
+		};
+		CFB9897C2B58E63800D0A26F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9897D2B58E63800D0A26F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFB989862B58E63800D0A26F /* Big TipperTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB989872B58E63800D0A26F /* Big_TipperTests.swift */,
+			);
+			path = "Big TipperTests";
+			sourceTree = "<group>";
+		};
+		CFB989902B58E63800D0A26F /* Big TipperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB989912B58E63800D0A26F /* Big_TipperUITests.swift */,
+				CFB989932B58E63800D0A26F /* Big_TipperUITestsLaunchTests.swift */,
+			);
+			path = "Big TipperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB989722B58E63300D0A26F /* Big Tipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB989972B58E63800D0A26F /* Build configuration list for PBXNativeTarget "Big Tipper" */;
+			buildPhases = (
+				CFB9896F2B58E63300D0A26F /* Sources */,
+				CFB989702B58E63300D0A26F /* Frameworks */,
+				CFB989712B58E63300D0A26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Big Tipper";
+			productName = "Big Tipper";
+			productReference = CFB989732B58E63300D0A26F /* Big Tipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFB989822B58E63800D0A26F /* Big TipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB9899A2B58E63800D0A26F /* Build configuration list for PBXNativeTarget "Big TipperTests" */;
+			buildPhases = (
+				CFB9897F2B58E63800D0A26F /* Sources */,
+				CFB989802B58E63800D0A26F /* Frameworks */,
+				CFB989812B58E63800D0A26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB989852B58E63800D0A26F /* PBXTargetDependency */,
+			);
+			name = "Big TipperTests";
+			productName = "Big TipperTests";
+			productReference = CFB989832B58E63800D0A26F /* Big TipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFB9898C2B58E63800D0A26F /* Big TipperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB9899D2B58E63800D0A26F /* Build configuration list for PBXNativeTarget "Big TipperUITests" */;
+			buildPhases = (
+				CFB989892B58E63800D0A26F /* Sources */,
+				CFB9898A2B58E63800D0A26F /* Frameworks */,
+				CFB9898B2B58E63800D0A26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB9898F2B58E63800D0A26F /* PBXTargetDependency */,
+			);
+			name = "Big TipperUITests";
+			productName = "Big TipperUITests";
+			productReference = CFB9898D2B58E63800D0A26F /* Big TipperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB9896B2B58E63300D0A26F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CFB989722B58E63300D0A26F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CFB989822B58E63800D0A26F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFB989722B58E63300D0A26F;
+					};
+					CFB9898C2B58E63800D0A26F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFB989722B58E63300D0A26F;
+					};
+				};
+			};
+			buildConfigurationList = CFB9896E2B58E63300D0A26F /* Build configuration list for PBXProject "Big Tipper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB9896A2B58E63300D0A26F;
+			productRefGroup = CFB989742B58E63300D0A26F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB989722B58E63300D0A26F /* Big Tipper */,
+				CFB989822B58E63800D0A26F /* Big TipperTests */,
+				CFB9898C2B58E63800D0A26F /* Big TipperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB989712B58E63300D0A26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB989A12B58E83F00D0A26F /* Launch Screen.storyboard in Resources */,
+				CFB9897E2B58E63800D0A26F /* Preview Assets.xcassets in Resources */,
+				CFB9897B2B58E63800D0A26F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB989812B58E63800D0A26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB9898B2B58E63800D0A26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB9896F2B58E63300D0A26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB989792B58E63300D0A26F /* ContentView.swift in Sources */,
+				CFB989A32B58EF1200D0A26F /* PriceCardView.swift in Sources */,
+				CFB989772B58E63300D0A26F /* Big_TipperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB9897F2B58E63800D0A26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB989882B58E63800D0A26F /* Big_TipperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB989892B58E63800D0A26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB989922B58E63800D0A26F /* Big_TipperUITests.swift in Sources */,
+				CFB989942B58E63800D0A26F /* Big_TipperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB989852B58E63800D0A26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB989722B58E63300D0A26F /* Big Tipper */;
+			targetProxy = CFB989842B58E63800D0A26F /* PBXContainerItemProxy */;
+		};
+		CFB9898F2B58E63800D0A26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB989722B58E63300D0A26F /* Big Tipper */;
+			targetProxy = CFB9898E2B58E63800D0A26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFB989952B58E63800D0A26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFB989962B58E63800D0A26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB989982B58E63800D0A26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Big Tipper/Preview Content\"";
+				DEVELOPMENT_TEAM = P82VXA5LAW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrwnTProductions.Big-Tipper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CFB989992B58E63800D0A26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Big Tipper/Preview Content\"";
+				DEVELOPMENT_TEAM = P82VXA5LAW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrwnTProductions.Big-Tipper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CFB9899B2B58E63800D0A26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VXA5LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrwnTProductions.Big-TipperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big Tipper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Big Tipper";
+			};
+			name = Debug;
+		};
+		CFB9899C2B58E63800D0A26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VXA5LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrwnTProductions.Big-TipperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big Tipper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Big Tipper";
+			};
+			name = Release;
+		};
+		CFB9899E2B58E63800D0A26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VXA5LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrwnTProductions.Big-TipperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Big Tipper";
+			};
+			name = Debug;
+		};
+		CFB9899F2B58E63800D0A26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P82VXA5LAW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrwnTProductions.Big-TipperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Big Tipper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB9896E2B58E63300D0A26F /* Build configuration list for PBXProject "Big Tipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB989952B58E63800D0A26F /* Debug */,
+				CFB989962B58E63800D0A26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB989972B58E63800D0A26F /* Build configuration list for PBXNativeTarget "Big Tipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB989982B58E63800D0A26F /* Debug */,
+				CFB989992B58E63800D0A26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB9899A2B58E63800D0A26F /* Build configuration list for PBXNativeTarget "Big TipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB9899B2B58E63800D0A26F /* Debug */,
+				CFB9899C2B58E63800D0A26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB9899D2B58E63800D0A26F /* Build configuration list for PBXNativeTarget "Big TipperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB9899E2B58E63800D0A26F /* Debug */,
+				CFB9899F2B58E63800D0A26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB9896B2B58E63300D0A26F /* Project object */;
+}
